@@ -1,0 +1,330 @@
+/* Created by Artisteer v4.2.0.60623 */
+
+.responsive body
+{
+   min-width: 240px;
+}
+  
+.responsive img 
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}  
+  
+.responsive .rjf-content-layout img,
+.responsive .rjf-content-layout video
+{
+   max-width: 100%;
+   height: auto !important;
+}
+
+.responsive.responsive-phone .rjf-content-layout img 
+{
+   margin: 1%;
+}
+
+.responsive.responsive-phone .rjf-collage,
+.responsive.responsive-tablet .rjf-collage {
+   margin: 0 !important;
+}
+
+.responsive .rjf-content-layout .rjf-sidebar0, 
+.responsive .rjf-content-layout .rjf-sidebar1, 
+.responsive .rjf-content-layout .rjf-sidebar2 
+{
+   width: auto !important;
+}
+    
+.responsive .rjf-content-layout, 
+.responsive .rjf-content-layout-row, 
+.responsive .rjf-layout-cell 
+{
+   padding: 0;
+   display: block;
+}
+    
+.responsive .image-caption-wrapper 
+{
+   width: auto;
+}
+
+.responsive.responsive-tablet .rjf-vmenublock,
+.responsive.responsive-tablet .rjf-block
+{
+   margin-left: 1%;
+   margin-right: 1%;
+   width: 48%;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .rjf-responsive-embed 
+{
+   height: 0;
+   padding-bottom: 56.25%;
+   /* 16:9 */
+    position: relative;
+}
+
+.responsive .rjf-responsive-embed iframe,
+.responsive .rjf-responsive-embed object,
+.responsive .rjf-responsive-embed embed
+{
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.responsive .rjf-sheet
+{
+   width: auto !important;
+   min-width: 240px !important;
+   max-width: none !important;
+   margin-right: 1% !important;
+   margin-left: 1% !important;
+}
+
+#rjf-resp {
+   display: none;
+}
+
+@media all and (max-width: 899px)
+{
+    #rjf-resp, #rjf-resp-t { display: block; }
+    #rjf-resp-m { display: none; }
+}
+
+@media all and (max-width: 480px)
+{
+    #rjf-resp, #rjf-resp-m { display: block; }
+    #rjf-resp-t { display: none; }
+}
+
+#rjf-resp-desktop {
+   display: none;
+}
+#rjf-resp-tablet-landscape {
+   display: none;
+}
+#rjf-resp-tablet-portrait {
+   display: none;
+}
+#rjf-resp-phone-landscape {
+   display: none;
+}
+#rjf-resp-phone-portrait {
+   display: none;
+}
+
+@media (min-width: 1200px)
+{
+    #rjf-resp-desktop { display: block; }
+}
+
+@media (min-width: 980px) and (max-width: 1199px)
+{
+    #rjf-resp-tablet-landscape { display: block; }
+}
+
+@media (min-width: 768px) and (max-width: 979px)
+{
+    #rjf-resp-tablet-portrait { display: block; }
+}
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+    #rjf-resp-phone-landscape { display: block; }
+}
+
+@media (max-width: 479px)
+{
+    #rjf-resp-phone-portrait { display: block; }
+}
+.responsive .rjf-header 
+{
+   width: auto !important;
+   max-width: none !important;
+   min-height: 100px !important;
+   min-width: 0 !important;
+   text-align: center;
+}
+
+.default-responsive .rjf-header 
+{
+   height: auto;
+}
+
+.default-responsive .rjf-header *
+{
+   position: relative;
+   text-align: center;
+   -webkit-transform: none !important;
+   -moz-transform: none !important;
+   -o-transform: none !important;
+   -ms-transform: none !important;
+   transform: none !important;
+}
+
+.default-responsive .rjf-header .rjf-headline, 
+.default-responsive .rjf-header .rjf-slogan 
+{
+   display: block !important;
+   top: 0 !important;
+   left: 0 !important;
+   margin: 2% !important;
+   text-align: center !important;
+}
+    
+.default-responsive .rjf-header .rjf-headline a, 
+.default-responsive .rjf-header .rjf-slogan 
+{
+   white-space: normal !important;
+}
+
+.default-responsive .rjf-header .rjf-logo
+{
+   display: inline-block;
+   margin: auto !important;
+   left: auto;
+   top: auto !important;
+   width: auto;
+   height: auto;
+}
+
+.responsive .rjf-header .rjf-slidenavigator 
+{
+   position: absolute;
+}
+
+.default-responsive .rjf-header .rjf-positioncontrol 
+{
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+   width: auto;
+   height: auto;
+   margin: auto;
+}
+
+.responsive .rjf-header #rjf-flash-area
+{
+   display: none;
+}
+
+/* Search and other elements in header element directly */
+.default-responsive .rjf-header>.rjf-textblock
+{
+   position: relative !important;
+   display: block !important;
+   margin: 1% auto !important;
+   width: 75% !important;
+   top: auto !important;
+   right: auto !important;
+   bottom: auto !important;
+   left: auto !important;
+}
+
+.default-responsive .rjf-header .rjf-textblock 
+{
+   position: relative !important;
+   display: block !important;
+   margin: auto !important;
+   left: 0 !important;
+   right: 0 !important;
+   top: auto !important;
+   height: auto !important;
+   width: auto;
+   background-image: none;
+}
+
+/* '.rjf-header *' used noram align, but for '.rjf-textblock *' we must force align because of preview */
+.responsive .rjf-header .rjf-textblock *
+{
+   text-align: center !important;
+}
+
+.default-responsive .rjf-header .rjf-shapes > .rjf-textblock,
+.default-responsive .rjf-header .rjf-slide-item > .rjf-textblock
+{
+   display: none !important;
+}
+
+.default-responsive .rjf-header .rjf-shapes > .rjf-textblock *
+{
+   text-align: center !important;
+   width: auto !important;
+   height: auto !important;
+   display: block;
+}
+
+.default-responsive .rjf-header .rjf-slider .rjf-textblock *
+{
+   text-align: center !important;
+   width: auto !important;
+   height: auto !important;
+   display: block;
+}
+
+/* For icons like facebook, rss, etc. */
+.responsive .rjf-header>.rjf-textblock>div 
+{
+   width: 100%;
+}
+.responsive .rjf-content-layout, 
+.responsive .rjf-content-layout-row, 
+.responsive .rjf-layout-cell 
+{
+   display: block;
+}
+
+.responsive .rjf-layout-cell 
+{
+   width: auto !important;
+   height: auto !important;
+}
+
+.responsive .rjf-content-layout:after, 
+.responsive .rjf-content-layout-row:after, 
+.responsive .rjf-layout-cell:after 
+{
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.responsive .rjf-post
+{
+   border-radius: 0;
+}
+
+.responsive .rjf-footer-inner
+{
+   min-width: 0;
+}
+.responsive .rjf-footer
+{
+   margin-top: 1%;
+}
+
+.responsive .responsive-tablet-layout-cell 
+{
+   width: 50% !important;
+   float: left;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.responsive .responsive-layout-row-3 .responsive-tablet-layout-cell 
+{
+   width: 33.33% !important;
+}
+

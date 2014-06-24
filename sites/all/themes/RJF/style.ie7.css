@@ -1,0 +1,135 @@
+/* Created by Artisteer v4.2.0.60623 */
+
+.rjf-header, #rjf-header-bg, .rjf-layout-cell, .rjf-layout-wrapper, .rjf-footer, .rjf-nav, #rjf-hmenu-bg, .rjf-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.rjf-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.rjf-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#rjf-header-bg 
+{
+   display: none;
+}
+
+.rjf-content-layout, .rjf-content-layout-row, .rjf-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.rjf-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.rjf-vmenu, ul.rjf-vmenu ul, ul.rjf-vmenu li{
+   zoom: 1;
+}
+
+ul.rjf-vmenu ul 
+{
+}
+
+ul.rjf-vmenu li li a {
+   float: left;
+}
+ul.rjf-vmenu li li, ul.rjf-vmenu li li ul {
+   clear: both;
+}
+ul.rjf-vmenu li li:hover {
+   float: left;
+   z-index: 10;
+}
+ul.rjf-vmenu li li.active {
+   float: left;
+   z-index: 9;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.rjf-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.rjf-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.rjf-search>input[type="text"] 
+{
+   margin :0;
+}
+
+form.rjf-search
+{
+   zoom: 1;
+}
+.rjf-postheadericons span{
+   zoom: 1;
+}
+.rjf-postcontent {
+   height: 1%;
+}
+
+.rjf-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.rjf-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='rjf-sidebar1-bg' + (className.indexOf('rjf-sidebar1-fix') == -1 ? '' : ' rjf-sidebar1-bg-fix' ));
+}
+
+.rjf-sidebar1-bg 
+{
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 25%;
+   overflow:hidden;
+   display:block;
+   background-color: #DADCDD;
+}
+
+.rjf-content 
+{
+   width: auto;
+   float:none;
+}
+
